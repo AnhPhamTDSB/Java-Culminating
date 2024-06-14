@@ -1,0 +1,81 @@
+/* General Styles */
+.root {
+  -fx-font-family: "Arial";
+  -fx-padding: 10;
+}
+
+/* Tab Styles */
+.tab-pane .tab {
+  -fx-background-color: #f2f2f2;
+  -fx-font-size: 14px;
+}
+
+.tab-pane .tab:selected {
+  -fx-background-color: #cce7ff;
+}
+
+/* Food Tracker Styles */
+.food-tracker {
+  -fx-background-color: #ffebcc;
+  -fx-padding: 10;
+}
+
+.food-tracker .label {
+  -fx-font-weight: bold;
+  -fx-text-fill: #333;
+}
+
+.food-tracker .list-view {
+  -fx-background-color: #fff;
+  -fx-border-color: #ccc;
+}
+
+/* Fitness Tracker Styles */
+.fitness-tracker {
+  -fx-background-color: #e0ffe0;
+  -fx-padding: 10;
+}
+
+.fitness-tracker .label {
+  -fx-font-weight: bold;
+  -fx-text-fill: #333;
+}
+
+.fitness-tracker .list-view {
+  -fx-background-color: #fff;
+  -fx-border-color: #ccc;
+}
+
+/* Workout Planner Styles */
+.workout-planner {
+  -fx-background-color: #d0f0ff;
+  -fx-padding: 10;
+}
+
+.workout-planner .label {
+  -fx-font-weight: bold;
+  -fx-text-fill: #333;
+}
+
+.workout-planner .list-view {
+  -fx-background-color: #fff;
+  -fx-border-color: #ccc;
+}
+
+/* Button Styles */
+.button {
+  -fx-background-color: #4caf50;
+  -fx-text-fill: white;
+  -fx-font-weight: bold;
+}
+
+.button:hover {
+  -fx-background-color: #45a049;
+}
+
+/* Text Area and Input Fields */
+.text-area,
+.text-field {
+  -fx-background-color: #fff;
+  -fx-border-color: #ccc;
+}
