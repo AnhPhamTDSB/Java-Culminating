@@ -1,0 +1,132 @@
+/* Apply basic styling to the entire application */
+.root {
+  -fx-font-family: "Arial", sans-serif;
+}
+
+/* Style for tabs */
+.tab {
+  -fx-background-color: #f0f0f0; /* Light gray background */
+  -fx-padding: 10px;
+}
+
+/* Style for tab labels */
+.tab-label {
+  -fx-font-size: 14px;
+}
+
+/* Style for selected tab */
+.tab:selected {
+  -fx-background-color: #2d3941c2; /* Blue background for selected tab */
+  -fx-text-fill: white; /* White text color */
+}
+
+/* Style for tab content */
+.tab-content-area {
+  -fx-padding: 20px;
+}
+
+/* Style for labels */
+.label {
+  -fx-font-size: 16px;
+  -fx-font-weight: bold;
+}
+
+/* Style for buttons */
+.button {
+  -fx-font-size: 14px;
+  -fx-padding: 8px 16px; /* Adjust padding */
+  -fx-background-color: #00cc25; /* Blue background */
+  -fx-text-fill: white; /* White text color */
+  -fx-margin: 10px; /* Add margin between buttons */
+}
+
+.button:hover {
+  -fx-background-color: #005580; /* Darker blue background on hover */
+}
+
+/* Style for ListView */
+.list-view {
+  -fx-background-color: #f5f5f5; /* Light gray background */
+}
+
+/* Style for TextArea */
+.text-area {
+  -fx-font-size: 14px;
+  -fx-background-color: #ffffff; /* White background */
+}
+
+/* Style for ComboBox */
+.combo-box {
+  -fx-font-size: 14px;
+  -fx-background-color: #ffffff; /* White background */
+}
+
+/* Style for TextField */
+.text-field {
+  -fx-font-size: 14px;
+  -fx-background-color: #ffffff; /* White background */
+}
+
+/* Style for DatePicker */
+.date-picker {
+  -fx-font-size: 14px;
+  -fx-background-color: #ffffff; /* White background */
+}
+
+/* Style for HBox */
+.hbox {
+  -fx-spacing: 10px; /* Spacing between children of HBox */
+}
+
+/* Style for VBox */
+.vbox {
+  -fx-spacing: 10px;
+  -fx-padding: 10px;
+  -fx-background-color: #f0f0f0; /* Light gray background */
+}
+
+/* Style for specific sections */
+.food-tracker {
+  -fx-background-color: #e0f2f1; /* Light blue background */
+}
+
+.fitness-tracker {
+  -fx-background-color: #fce4ec; /* Light pink background */
+}
+
+.workout-planner {
+  -fx-background-color: #f0f0f0; /* Light gray background */
+}
+
+/* Override default focus highlighting */
+.text-input-focused {
+  -fx-background-color: #ffffff; /* White background */
+  -fx-border-color: #0077cc; /* Blue border color */
+  -fx-border-width: 1px;
+  -fx-border-radius: 3px;
+}
+
+/* Override default focus highlighting for ComboBox */
+.combo-box .list-cell:focused {
+  -fx-background-color: #0077cc; /* Blue background */
+  -fx-text-fill: white; /* White text color */
+}
+
+/* Style for home page in the Home tab */
+.home-page {
+  -fx-font-size: 100px; /* Larger font size */
+  -fx-text-alignment: center; /* Center-align text */
+  -fx-font-family: "Concord", sans-serif;
+}
+
+/* Style for home page VBox */
+.home-layout {
+  -fx-background-color: #ffffff; /* Light blue background */
+  -fx-padding: 5px; /* Padding around the VBox */
+  -fx-alignment: center; /* Center align the content */
+}
+
+/* Adding space between buttons */
+.home-layout .button {
+  -fx-margin: 20px; /* Add margin between buttons */
+}
